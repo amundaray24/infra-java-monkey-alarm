@@ -1,0 +1,6 @@
+server:
+  port: ${MONKEY_AUTOMATION_PORT:8010}
+language: ${MONKEY_AUTOMATION_LANGUAGE:ZZ}
+spring:
+  application:
+    name: monkey-automation-service
